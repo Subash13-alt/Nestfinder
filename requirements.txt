@@ -1,0 +1,101 @@
+# NestFinder - Python Dependencies
+# Generated: May 2026
+
+# ============================================
+# Core Database Drivers
+# ============================================
+pymongo==4.6.1                 # MongoDB driver for Python
+motor==3.3.2                   # Async MongoDB driver
+
+# ============================================
+# Web Frameworks (Optional - for API development)
+# ============================================
+flask==3.0.0                   # Lightweight web framework
+fastapi==0.104.1               # Modern web framework for APIs
+uvicorn==0.24.0                # ASGI server for FastAPI
+gunicorn==21.2.0               # WSGI HTTP Server
+
+# ============================================
+# Environment & Configuration
+# ============================================
+python-dotenv==1.0.0           # Load environment variables
+pydantic==2.5.0                # Data validation
+pydantic-settings==2.1.0       # Settings management
+
+# ============================================
+# Authentication & Security
+# ============================================
+python-jose==3.3.0             # JWT handling
+passlib==1.7.4                 # Password hashing
+bcrypt==4.1.0                  # Password encryption
+python-multipart==0.0.6        # Form data handling
+
+# ============================================
+# HTTP & API Clients
+# ============================================
+requests==2.31.0               # HTTP client
+httpx==0.25.1                  # Async HTTP client
+aiohttp==3.9.1                 # Async HTTP client
+
+# ============================================
+# Data Processing & Analysis
+# ============================================
+pandas==2.1.4                  # Data manipulation
+numpy==1.26.2                  # Numerical computing
+openpyxl==3.1.2                # Excel file handling
+
+# ============================================
+# Logging & Monitoring
+# ============================================
+loguru==0.7.2                  # Better logging
+colorlog==6.8.0                # Colored logging
+
+# ============================================
+# Testing & Quality
+# ============================================
+pytest==7.4.3                  # Testing framework
+pytest-asyncio==0.21.1         # Async test support
+pytest-cov==4.1.0              # Code coverage
+black==23.12.0                 # Code formatter
+flake8==6.1.0                  # Linting
+mypy==1.7.1                    # Static type checking
+
+# ============================================
+# Database Migration & Management
+# ============================================
+alembic==1.12.1                # Database migrations
+click==8.1.7                   # CLI utilities
+
+# ============================================
+# Task Queue (Optional)
+# ============================================
+celery==5.3.4                  # Distributed task queue
+redis==5.0.1                   # Redis client for caching/queues
+
+# ============================================
+# Email & Notifications
+# ============================================
+sendgrid==6.10.0               # Email sending
+yagmail==0.15.293              # Simple email sending
+jinja2==3.1.2                  # Email templates
+
+# ============================================
+# Image Processing
+# ============================================
+Pillow==10.1.0                 # Image handling
+python-resize-image==1.1.20    # Image resizing
+
+# ============================================
+# API Documentation
+# ============================================
+mkdocs==1.5.3                  # Documentation generator
+mkdocs-material==9.5.2         # Material theme for docs
+swagger-ui-py==1.0.1           # Swagger UI integration
+
+# ============================================
+# Utilities
+# ============================================
+schedule==1.2.0                # Job scheduling
+python-dateutil==2.8.2         # Date utilities
+tzdata==2023.3                 # Timezone data
+humanize==4.8.0                # Human readable formatting
