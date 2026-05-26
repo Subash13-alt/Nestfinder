@@ -1,1 +1,186 @@
-node_modules
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Next.js build output
+/.next/
+/out/
+/build/
+/dist/
+
+# production
+/build
+/dist
+/.vercel
+/.netlify
+
+# TypeScript
+*.tsbuildinfo
+.next/types/
+.next/cache/
+
+# environment variables
+.env
+.env*.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# Python (if using Python backend)
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.coverage.*
+.htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+pyrightconfig.json
+*.log
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+desktop.ini
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-*
+*.iml
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# testing
+/coverage/
+.nyc_output/
+.nyc_output
+.jest/
+.vscode-test/
+
+# misc
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+.env.*.local
+*.secret
+*.secrets
+.DS_Store
+.temp/
+.tmp/
+.cache/
+.vercel
+.netlify
+.now
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.lerna-debug.log*
+pnpm-debug.log*
+
+# local development
+.vercel
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.cursor/
+.cursorrules
+
+# Docker (if using)
+docker-compose.override.yml
+docker-compose.*.yml
+!.docker-compose.yml
+.docker/
+Dockerfile.dev
+
+# MongoDB local data
+/data/
+/db/
+mongodb-data/
+*.lock
+
+# Redis (if using)
+dump.rdb
+appendonly.aof
+*.rdb
+*.aof
+
+# backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# archive files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# secret files (never commit)
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+*.secret
+*.secrets
+secret/
+secrets/
+.ssl/
+
+# Next.js specific
+.next
+out
+build
+dist
+.vercel
