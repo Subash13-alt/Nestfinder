@@ -1,0 +1,5 @@
+{
+  "/page": "app/page.js",
+  "/api/chatbot/route": "app/api/chatbot/route.js",
+  "/login/page": "app/login/page.js"
+}

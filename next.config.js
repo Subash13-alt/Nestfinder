@@ -10,13 +10,14 @@ const nextConfig = {
   compress: true,
   swcMinify: true,
   poweredByHeader: false,
-  reactStrictMode: false, // Reduce double rendering
+  reactStrictMode: false,
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
+  // Disable problematic experimental features
   experimental: {
-    optimizeCss: true,
-    optimizePackageImports: ['lucide-react'],
+    // optimizeCss: true,  // COMMENT THIS OUT - causing critters error
+    // optimizePackageImports: ['lucide-react'],  // COMMENT THIS OUT
   },
   onDemandEntries: {
     maxInactiveAge: 25 * 1000,
